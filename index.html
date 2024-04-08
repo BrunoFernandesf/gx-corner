@@ -1,104 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GX Corner</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <main>
+    <head>
+        <meta charset="utf-8">
+        <title>GX Corner</title>
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
         <header class="header">
-            <div class="header-title">
-                <h1 class="header-h1">GX Corner</h1>
+            <div class="header-titulo">
+                <h1>GX Corner</h1>
             </div>
             <div class="header-options">
-                <div class="header-buttons">
-                    <p class="header-titleh2">Feedback</p>
-                    <img src="assets/gear_12.svg" id="gear">
+                <div class="options-container1">
+                    <p style="font-size: 32px;">Feedback</p>
+                    <a id="container1-gear"><img src="assets/gear.png"></a>
                 </div>
-                <div class="header-signin">
-                    <a class="header-signintitle">SIGN IN</a>
+                <div class="options-container2">
+                    <a id="options-signin">SIGN IN</a>
                 </div>
             </div>
         </header>
-        <section class="categories">
-            <div class="categories-title">
-                <h2 class="section-title">Release Calendar</h2>
-            </div>
-            <div class="categories-options">
-                <ul class="categories-list">
-                    <li class="categories-items">ALL</li>
-                    <li class="categories-items">WINDOWS</li>
-                    <li class="categories-items">PLAYSTATION</li>
-                    <li class="categories-items">SWITCH</li>
-                    <li class="categories-items">XBOX</li>
-                    <li class="categories-items">MAC</li>
-                    <li class="categories-items">LINUX</li>
-                    <li class="categories-items">STEAM DECK</li>
-                    <li class="categories-items">ANDROID</li>
-                    <li class="categories-items">IOS</li>
-                    <li class="categories-items">VR</li>
-                    <li class="categories-items">PS VR2</li>
-                </ul>
-                <img src="assets/smiley-svgrepo-com.svg" id="smiley01">
-            </div>
-        </section>
-        <section class="gamelist">
-            <div class="gamelist-items" id="gamelist-items01">
-
-            </div>
-            <div class="gamelist-items" id="gamelist-items02">
-
-            </div>
-            <div class="gamelist-items" id="gamelist-items03">
-
-            </div>
-            <div class="gamelist-items" id="gamelist-items04">
-
-            </div>
-            <div class="gamelist-items" id="gamelist-items05">
-
-            </div>
-            <div class="gamelist-items" id="gamelist-items06">
-
-            </div>
-            <div class="gamelist-items" id="gamelist-items07">
-
-            </div>
-            <div class="gamelist-items" id="gamelist-items08">
-
-            </div>
-            <div class="gamelist-items" id="gamelist-items09">
-
-            </div>
-        </section>
-        <section class="gxgames">
-            <div class="gxgames-title">
-                <h2 class="section-title">Play GX.games</h2>
-                <img src="assets/smiley-svgrepo-com.svg" id="smiley02">
-            </div>
-            <div class="gxgames-container">
-                <div class="gxgames-items" id="gxgames-items01">
-
+        <main>
+            <section class="main-navegation">
+                <div class="main-title">
+                    <h2 class="title-gxcorner">Release Calendar</h2>
                 </div>
-                <div class="gxgames-items" id="gxgames-items02">
-
+                <div class="main-navmenu">
+                    <div class="main-options">
+                        <a class="options-itens">ALL</a>
+                        <a class="options-itens">WINDOWS</a>
+                        <a class="options-itens">PLAYSTATION</a>
+                        <a class="options-itens">SWITCH</a>
+                        <a class="options-itens">XBOX</a>
+                        <a class="options-itens">MAC</a>
+                        <a class="options-itens">LINUX</a>
+                        <a class="options-itens">STEAM DECK</a>
+                        <a class="options-itens">ANDROID</a>
+                        <a class="options-itens">IOS</a>
+                        <a class="options-itens">VR</a>
+                        <a class="options-itens">PS VR2</a>
+                    </div>
+                    <div class="main-like">
+                        <a><img src="assets/smiley.png"></a>
+                    </div>
                 </div>
-                <div class="gxgames-items" id="gxgames-items03">
+            </section>
+            
+            <section class="main-gametitles">
+                <img class="gametitles-img" src="assets/game01.png">
+                <img class="gametitles-img" src="assets/game02.png">
+                <img class="gametitles-img" src="assets/game03.png">
+                <img class="gametitles-img" src="assets/game04.png">
+                <img class="gametitles-img" src="assets/game05.png">
+                <img class="gametitles-img" src="assets/game06.png">
+                <img class="gametitles-img" src="assets/game07.png">
+                <img class="gametitles-img" src="assets/game08.png">
+                <img class="gametitles-img" src="assets/game09.png">
+            </section>
 
+            <section class="main-gxgames">
+                <div class="gxgames-title">
+                    <h2 class="title-gxcorner">Play GX.games</h2>
                 </div>
-                <div class="gxgames-items" id="gxgames-items04">
-
+                <div class="gxgames-gametitles">
+                    <img class="gxgames-img" src="assets/gx01.png">
+                    <img class="gxgames-img" src="assets/gx02.png">
+                    <img class="gxgames-img" src="assets/gx03.png">
+                    <img class="gxgames-img" src="assets/gx04.png">
+                    <img class="gxgames-img" src="assets/gx05.png">
                 </div>
-                <div class="gxgames-items" id="gxgames-items05">
-
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-
-    </footer>
-</body>
+            </section>
+        </main>
+    </body>
 </html>
